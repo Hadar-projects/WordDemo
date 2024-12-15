@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WordDemo</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div id="LabelsAndLinks">
+        <h1>WordDemo</h1>
+    </div>
+    <div id="Main">
+        <div>
+            <h3>Text Color</h3>
+            <input id="ColorText" type="color">
+        </div>
+        <div>
+            <h3>Font</h3>
+            <select id="FontSelect">
+                <option value="Arial" selected>Arial</option>
+                <option value="Verdana">Verdana</option>
+                <option value="Times New Roman">Times New Roman</option>
+                <option value="Courier New">Courier New</option>
+                <option value="Georgia">Georgia</option>
+                <option value="Cursive">Cursive</option>
+            </select>
+        </div>
+        <div>
+            <h3>Font Size</h3>
+            <input id="FontSizeSelect" type="number">
+        </div>
+        <div>
+            <h3>Upload Image</h3>
+            <input id="ImageUpload" type="file" accept="image/*">
+        </div>
+        <div>
+            <h3>Image Size</h3>
+            <input id="ImageSizeSelect" type="number">
+        </div>
+    </div>
+    <div id="TextEditor" contenteditable="true" placeholder="Start writing here..."></div>
+    <script src="script.js"></script>
+</body>
+
+</html>
